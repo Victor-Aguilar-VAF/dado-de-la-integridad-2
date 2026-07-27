@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 504 190" role="img" aria-labelledby="title desc">
+  <title id="title">Caja de Herramientas del C&#243;digo de &#201;tica e Integridad</title>
+  <desc id="desc">Tarjeta institucional con logo reconstruido en vector a partir de la referencia original.</desc>
+  <defs>
+    <linearGradient id="cardFill" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#d7d8dd"/>
+      <stop offset="100%" stop-color="#d2d4d8"/>
+    </linearGradient>
+    <linearGradient id="cardEdge" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#eff3f7"/>
+      <stop offset="100%" stop-color="#d4d8de"/>
+    </linearGradient>
+    <linearGradient id="bannerTopLeft" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3eb3ff"/>
+      <stop offset="100%" stop-color="#29a5f6"/>
+    </linearGradient>
+    <linearGradient id="bannerTopRight" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#49bc45"/>
+      <stop offset="100%" stop-color="#279f39"/>
+    </linearGradient>
+    <linearGradient id="bannerFill" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#02120f"/>
+      <stop offset="52%" stop-color="#041813"/>
+      <stop offset="100%" stop-color="#071711"/>
+    </linearGradient>
+    <linearGradient id="ribbonFill" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#d49b22"/>
+      <stop offset="100%" stop-color="#c07f13"/>
+    </linearGradient>
+    <linearGradient id="cubeTopA" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f6e0a0"/>
+      <stop offset="100%" stop-color="#cc9f34"/>
+    </linearGradient>
+    <linearGradient id="cubeTopB" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#edcf75"/>
+      <stop offset="100%" stop-color="#bb8518"/>
+    </linearGradient>
+    <linearGradient id="cubeLeft" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e2d09a"/>
+      <stop offset="100%" stop-color="#bb8a18"/>
+    </linearGradient>
+    <linearGradient id="cubeRightTop" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#35c65f"/>
+      <stop offset="100%" stop-color="#1f9c47"/>
+    </linearGradient>
+    <linearGradient id="cubeRightMid" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3fd8f2"/>
+      <stop offset="100%" stop-color="#168cd8"/>
+    </linearGradient>
+    <linearGradient id="cubeRightBot" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffbf52"/>
+      <stop offset="100%" stop-color="#ff7a25"/>
+    </linearGradient>
+    <linearGradient id="cubeFrontLeft" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#9336b9"/>
+      <stop offset="100%" stop-color="#d33b9f"/>
+    </linearGradient>
+    <linearGradient id="cubeFrontRight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff6350"/>
+      <stop offset="100%" stop-color="#ff3020"/>
+    </linearGradient>
+    <filter id="cardShadow" x="-10%" y="-18%" width="120%" height="140%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#b7c0cb" flood-opacity=".95"/>
+      <feDropShadow dx="0" dy="14" stdDeviation="12" flood-color="#9fb0c2" flood-opacity=".20"/>
+    </filter>
+    <filter id="logoShadow" x="-10%" y="-15%" width="120%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#1b2b30" flood-opacity=".30"/>
+    </filter>
+    <filter id="textShadow" x="-20%" y="-25%" width="140%" height="160%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#8a6110" flood-opacity=".42"/>
+    </filter>
+    <filter id="whiteShadow" x="-20%" y="-25%" width="140%" height="160%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#091311" flood-opacity=".55"/>
+    </filter>
+  </defs>
+
+  <g filter="url(#cardShadow)">
+    <rect x="36" y="20" width="432" height="160" rx="12" fill="url(#cardFill)" stroke="url(#cardEdge)" stroke-width="2"/>
+  </g>
+
+  <g transform="translate(84 73)" filter="url(#logoShadow)">
+    <rect x="0" y="8" width="348" height="61" rx="3.8" fill="url(#bannerFill)"/>
+    <rect x="0" y="8" width="163" height="7" rx="3.5" fill="url(#bannerTopLeft)"/>
+    <rect x="163" y="8" width="185" height="7" rx="3.5" fill="url(#bannerTopRight)"/>
+
+    <path d="M12 50c18-18 32-22 52-10 14 8 25 8 41-2 18-12 34-13 50-4 14 8 28 14 45 8 17-6 32-20 52-20 20 0 31 11 47 18 20 8 40 8 61-9" fill="none" stroke="#103a30" stroke-width="9" stroke-linecap="round" opacity=".72"/>
+    <path d="M8 28c20-13 39-12 57 2 15 11 29 13 48 6 23-8 37-8 55 5 18 13 34 16 55 3 22-14 38-18 61-8 16 7 30 18 47 17" fill="none" stroke="#0a261f" stroke-width="8" stroke-linecap="round" opacity=".82"/>
+    <path d="M88 18c12 16 16 32 10 50" fill="none" stroke="#143a2f" stroke-width="5" stroke-linecap="round" opacity=".58"/>
+    <path d="M279 26c-9 12-12 25-10 42" fill="none" stroke="#12362b" stroke-width="5" stroke-linecap="round" opacity=".48"/>
+
+    <rect x="120" y="45" width="174" height="24" rx="3.5" fill="url(#ribbonFill)"/>
+
+    <g filter="url(#textShadow)">
+      <text x="185" y="19" text-anchor="middle" fill="#d39a20" stroke="#fff8e9" stroke-width="5.4" paint-order="stroke fill" font-family="Arial Black, Arial, sans-serif" font-size="31" letter-spacing=".1">Caja de</text>
+    </g>
+    <g filter="url(#whiteShadow)">
+      <text x="152" y="49" text-anchor="start" fill="#fbf9ef" stroke="#132118" stroke-width="3.2" paint-order="stroke fill" font-family="Arial Black, Arial, sans-serif" font-size="34" letter-spacing=".02">Herramientas</text>
+    </g>
+    <text x="208" y="61.5" text-anchor="middle" fill="#fff9ea" font-family="Arial, Helvetica, sans-serif" font-style="italic" font-weight="700" font-size="9.7" letter-spacing=".1">del C&#243;digo de &#201;tica e Integridad</text>
+  </g>
+
+  <g transform="translate(275 16) scale(.77)">
+    <polygon points="0 18 28 0 57 18 28 36" fill="url(#cubeTopA)"/>
+    <polygon points="28 0 57 18 84 0 56 -18" transform="translate(0 18)" fill="url(#cubeTopB)"/>
+    <polygon points="0 18 28 36 28 103 0 85" fill="url(#cubeLeft)"/>
+    <polygon points="57 18 84 0 84 68 57 85" fill="url(#cubeRightTop)"/>
+    <polygon points="57 42 84 33 84 68 57 78" fill="url(#cubeRightMid)"/>
+    <polygon points="57 78 84 68 84 101 57 118" fill="url(#cubeRightBot)"/>
+    <polygon points="28 36 57 18 57 85 28 103" fill="#ffffff"/>
+    <polygon points="28 64 57 85 57 118 28 103" fill="url(#cubeFrontRight)"/>
+    <polygon points="0 85 28 103 28 64 0 49" fill="url(#cubeFrontLeft)"/>
+    <path d="M0 18 28 36 57 18 84 0" fill="none" stroke="#fbf5df" stroke-width="2.4" opacity=".8"/>
+    <path d="M28 36v67M57 18v100" fill="none" stroke="#fffdf7" stroke-width="2.2" opacity=".88"/>
+  </g>
+</svg>

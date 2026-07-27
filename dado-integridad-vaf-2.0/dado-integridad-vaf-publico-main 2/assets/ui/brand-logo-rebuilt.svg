@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="20 0 760 240" role="img" aria-labelledby="title desc">
+  <title id="title">Caja de Herramientas del C&#243;digo de &#201;tica e Integridad</title>
+  <desc id="desc">Logotipo reconstruido con cubo multicolor y r&#243;tulo institucional.</desc>
+  <defs>
+    <linearGradient id="bannerFill" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#041b15"/>
+      <stop offset="55%" stop-color="#0c3027"/>
+      <stop offset="100%" stop-color="#06241e"/>
+    </linearGradient>
+    <linearGradient id="topStrip" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#11b8ee"/>
+      <stop offset="65%" stop-color="#11b46e"/>
+      <stop offset="100%" stop-color="#0d7d49"/>
+    </linearGradient>
+    <linearGradient id="ribbonFill" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#d89f18"/>
+      <stop offset="100%" stop-color="#c17d0f"/>
+    </linearGradient>
+    <linearGradient id="cubeGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f3da8a"/>
+      <stop offset="100%" stop-color="#c38b13"/>
+    </linearGradient>
+    <linearGradient id="cubeAmber" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f0b84a"/>
+      <stop offset="100%" stop-color="#cb7800"/>
+    </linearGradient>
+    <linearGradient id="cubeCyan" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#22d4e4"/>
+      <stop offset="100%" stop-color="#009cb5"/>
+    </linearGradient>
+    <linearGradient id="cubeOrange" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffb14b"/>
+      <stop offset="100%" stop-color="#ff6b1c"/>
+    </linearGradient>
+    <linearGradient id="cubeMagenta" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff4fb4"/>
+      <stop offset="100%" stop-color="#d21e7d"/>
+    </linearGradient>
+    <linearGradient id="cubeGreen" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#41db7c"/>
+      <stop offset="100%" stop-color="#0f9d55"/>
+    </linearGradient>
+    <filter id="softShadow" x="-20%" y="-30%" width="140%" height="170%">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#16304c" flood-opacity=".20"/>
+    </filter>
+    <filter id="cubeShadow" x="-40%" y="-40%" width="180%" height="180%">
+      <feDropShadow dx="0" dy="12" stdDeviation="10" flood-color="#14263c" flood-opacity=".22"/>
+    </filter>
+  </defs>
+
+  <g filter="url(#softShadow)">
+    <g transform="translate(70 86)">
+      <rect x="0" y="12" width="628" height="116" rx="12" fill="url(#bannerFill)"/>
+      <rect x="0" y="12" width="628" height="12" rx="12" fill="url(#topStrip)"/>
+      <path d="M26 112c42-40 82-42 124-10 26 20 53 22 84 8 22-10 44-26 76-26 40 0 56 30 92 30 31 0 58-23 89-23 31 0 42 9 78 34" fill="none" stroke="rgba(28,124,94,.42)" stroke-width="10" stroke-linecap="round"/>
+      <path d="M42 54c30 18 58 20 86 6 30-15 56-17 82 4 33 25 54 25 88 4 36-24 68-23 100 3 31 25 50 25 86 0 26-18 51-21 78-8" fill="none" stroke="rgba(13,74,59,.52)" stroke-width="12" stroke-linecap="round"/>
+      <rect x="184" y="88" width="356" height="28" rx="14" fill="url(#ribbonFill)"/>
+
+      <text x="192" y="56" fill="#f5a923" stroke="#6f460d" stroke-width="5" paint-order="stroke fill" font-family="Arial, Helvetica, sans-serif" font-weight="800" font-size="66">Caja de</text>
+      <text x="180" y="88" fill="#f4f6e9" stroke="#0c1f17" stroke-width="6" paint-order="stroke fill" font-family="Arial, Helvetica, sans-serif" font-weight="900" font-size="78">Herramientas</text>
+      <text x="362" y="108" text-anchor="middle" fill="#fff7dc" font-family="Arial, Helvetica, sans-serif" font-style="italic" font-weight="700" font-size="26">del C&#243;digo de &#201;tica e Integridad</text>
+    </g>
+
+    <g transform="translate(560 8)" filter="url(#cubeShadow)">
+      <polygon points="78 0 132 31 78 62 24 31" fill="url(#cubeGold)"/>
+      <polygon points="24 31 78 62 78 122 24 91" fill="url(#cubeAmber)"/>
+      <polygon points="78 62 132 31 132 91 78 122" fill="url(#cubeCyan)"/>
+      <rect x="49" y="37" width="58" height="58" rx="2" fill="#ffffff"/>
+      <polygon points="49 95 78 112 107 95 78 78" fill="url(#cubeMagenta)"/>
+      <polygon points="20 92 49 109 49 138 20 121" fill="url(#cubeOrange)"/>
+      <polygon points="107 95 136 112 136 141 107 124" fill="url(#cubeGreen)"/>
+      <path d="M78 0v62" fill="none" stroke="rgba(255,255,255,.5)" stroke-width="3"/>
+      <path d="M24 31l54 31 54-31" fill="none" stroke="rgba(255,255,255,.38)" stroke-width="3"/>
+    </g>
+  </g>
+</svg>

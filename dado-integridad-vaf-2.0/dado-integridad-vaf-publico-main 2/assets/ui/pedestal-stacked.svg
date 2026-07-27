@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 860" role="img" aria-labelledby="title desc">
+  <title id="title">Base del dado</title>
+  <desc id="desc">Pedestal circular de dos niveles, solido y azul marino, con sombras y brillo suave.</desc>
+  <defs>
+    <linearGradient id="lower-wall" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#385378"/>
+      <stop offset="18%" stop-color="#223752"/>
+      <stop offset="50%" stop-color="#13253d"/>
+      <stop offset="82%" stop-color="#1d314d"/>
+      <stop offset="100%" stop-color="#3c5a80"/>
+    </linearGradient>
+    <linearGradient id="upper-wall" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#456286"/>
+      <stop offset="18%" stop-color="#29415e"/>
+      <stop offset="50%" stop-color="#182d45"/>
+      <stop offset="82%" stop-color="#263d5a"/>
+      <stop offset="100%" stop-color="#4a6a8f"/>
+    </linearGradient>
+    <linearGradient id="wall-shade" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#314965" stop-opacity=".22"/>
+      <stop offset="100%" stop-color="#081321" stop-opacity=".48"/>
+    </linearGradient>
+    <radialGradient id="lower-top" cx="50%" cy="34%" r="78%">
+      <stop offset="0%" stop-color="#4d688a"/>
+      <stop offset="42%" stop-color="#314a6b"/>
+      <stop offset="76%" stop-color="#223754"/>
+      <stop offset="100%" stop-color="#6f88a7"/>
+    </radialGradient>
+    <radialGradient id="upper-top" cx="50%" cy="35%" r="78%">
+      <stop offset="0%" stop-color="#587396"/>
+      <stop offset="44%" stop-color="#375170"/>
+      <stop offset="78%" stop-color="#243a57"/>
+      <stop offset="100%" stop-color="#7d94b0"/>
+    </radialGradient>
+    <radialGradient id="floor-shadow" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#091727" stop-opacity=".26"/>
+      <stop offset="100%" stop-color="#091727" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="blur-18" x="-20%" y="-20%" width="140%" height="160%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+    <filter id="blur-26" x="-20%" y="-20%" width="140%" height="170%">
+      <feGaussianBlur stdDeviation="26"/>
+    </filter>
+  </defs>
+
+  <ellipse cx="800" cy="744" rx="604" ry="44" fill="url(#floor-shadow)" filter="url(#blur-26)"/>
+
+  <g>
+    <path d="M58 548 C228 634 1372 634 1542 548 L1542 658 C1370 736 230 736 58 658 Z" fill="url(#lower-wall)"/>
+    <path d="M58 548 C228 634 1372 634 1542 548 L1542 658 C1370 736 230 736 58 658 Z" fill="url(#wall-shade)"/>
+    <ellipse cx="800" cy="548" rx="742" ry="118" fill="url(#lower-top)"/>
+    <path d="M58 548 C228 630 1372 630 1542 548" fill="none" stroke="#9db9dc" stroke-width="3.2" opacity=".58"/>
+    <path d="M94 652 C260 714 1340 714 1506 652" fill="none" stroke="#0c1827" stroke-width="2.6" opacity=".34"/>
+    <path d="M122 568 C282 630 1318 630 1478 568" fill="none" stroke="#d9e4f0" stroke-width="2" opacity=".08"/>
+  </g>
+
+  <g>
+    <path d="M198 466 C340 542 1260 542 1402 466 L1402 578 C1260 640 340 640 198 578 Z" fill="url(#upper-wall)"/>
+    <path d="M198 466 C340 542 1260 542 1402 466 L1402 578 C1260 640 340 640 198 578 Z" fill="url(#wall-shade)"/>
+    <ellipse cx="800" cy="466" rx="602" ry="86" fill="url(#upper-top)"/>
+    <ellipse cx="800" cy="446" rx="440" ry="74" fill="#edf2f7" fill-opacity=".06" filter="url(#blur-18)"/>
+    <path d="M198 466 C340 536 1260 536 1402 466" fill="none" stroke="#b2c8e1" stroke-width="3.2" opacity=".62"/>
+    <path d="M228 572 C362 628 1238 628 1372 572" fill="none" stroke="#0c1827" stroke-width="2.8" opacity=".28"/>
+    <path d="M268 484 C390 526 1210 526 1332 484" fill="none" stroke="#eef4fb" stroke-width="1.8" opacity=".1"/>
+  </g>
+</svg>
